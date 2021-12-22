@@ -2,8 +2,8 @@ name: Fetch upstream
 
 on: 
   push:
-#  schedule:
-#    - cron: "0 16 * * *"
+  schedule:
+    - cron: "0 16 * * *"
 
 jobs:
   build:
