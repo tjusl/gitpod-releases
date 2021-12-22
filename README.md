@@ -1,3 +1,3 @@
-# OpenVSCode Server releases
+# Gitpod releases
 
-This repo is only to produce releases for [OpenVSCode Server](https://github.com/cmcc-ict/openvscode-server).
+This repo is only to produce releases for [gitpod](https://github.com/cmcc-ict/gitpod).
