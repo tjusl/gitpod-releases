@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
 
-echo "Syncing openvscode-server with upstream"
+echo "Syncing gitpod with upstream"
 gitpath=${1:-$(pwd)}
 upstream_branch=${2:-"upstream/main"}
 local_branch=${3:-"main"}
 base_commit_msg=${4:-"cmict code web server initial commit"}
 only_sync=${5:-"true"}
-upstream_url=${6:-${UPSTREAM_URL:-"https://github.com/gitpod-io/openvscode-server.git"}}
+upstream_url=${6:-${UPSTREAM_URL:-"https://github.com/gitpod-io/gitpod.git"}}
 
 echo PWD=$(pwd) upstream_branch=$upstream_branch  local_branch=$local_branch  base_commit_msg=$base_commit_msg  only_sync=$only_sync
 exit_script() {
